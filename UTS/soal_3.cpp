@@ -91,7 +91,7 @@ void dijkstra(char start, char goal) {
 }
 
 int main() {
-    // ubah urutan A agar DFS jadi A -> C -> D -> E -> B
+    
     graph['A'] = {{'C', 2}, {'B', 5}};
     graph['B'] = {{'A', 5}, {'D', 4}};
     graph['C'] = {{'A', 2}, {'D', 1}};
@@ -106,3 +106,4 @@ int main() {
 
     return 0;
 }
+
